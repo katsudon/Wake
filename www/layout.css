@@ -1,0 +1,255 @@
+@charset "utf-8";
+/* CSS Document */
+
+	body{
+	background-color:#000;
+	background-image: url(images/back.jpg);
+	background-position:top left;
+	background-repeat: no-repeat;
+	}
+.header {
+	color: #FFF;
+	font-size: medium;
+	padding-left: 50px;
+	border-left-width: thin;
+	border-left-style: solid;
+	border-left-color: #FFF;
+	padding-bottom: 10px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+}
+.host {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 9px;
+	color: #FFF;
+}
+
+	/*
+	General rules
+	*/
+
+	#dhtmlgoodies_slidedown_menu li{
+		list-style-type:none;
+		position:relative;
+	}
+.maintextheader {	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	font-style: oblique;
+	font-weight: bold;
+	color: #099;
+}
+
+	#dhtmlgoodies_slidedown_menu ul{
+		margin:0px;
+		padding:0px;
+		position:relative;
+
+	}
+
+	#dhtmlgoodies_slidedown_menu div{
+		margin:0px;
+		padding:0px;
+	}
+	/* 	Layout CSS */
+	#dhtmlgoodies_slidedown_menu{
+	width:150px;
+	top: 200px;
+	position: absolute;
+	background-image: url(images/bac.png);
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #FFF;
+	}
+
+	/* All A tags - i.e menu items. */
+	#dhtmlgoodies_slidedown_menu a{
+	color: #FFF;
+	text-decoration:none;
+	display:block;
+	clear:both;
+	width:150px;
+	padding-left:2px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 17px;
+	}
+#dhtmlgoodies_slidedown_menu a:hover {
+	color: #666;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #FFF;
+}
+	
+	/*
+	A tags 
+	*/
+	#dhtmlgoodies_slidedown_menu .slMenuItem_depth1{	/* Main menu items */
+	margin-top:1px;
+	}	
+	#dhtmlgoodies_slidedown_menu .slMenuItem_depth2{	/* Sub menu items */
+	margin-top:1px;
+	color: #999;
+	}	
+	#dhtmlgoodies_slidedown_menu .slMenuItem_depth5{	/* Sub menu items */
+		margin-top:1px;
+	}
+
+	/* UL tags, i.e group of menu utems. 
+	It's important to add style to the UL if you're specifying margins. If not, assign the style directly
+	to the parent DIV, i.e. 
+	
+	#dhtmlgoodies_slidedown_menu .slideMenuDiv1
+	
+	instead of 
+	
+	#dhtmlgoodies_slidedown_menu .slideMenuDiv1 ul
+	*/
+	
+	#dhtmlgoodies_slidedown_menu .slideMenuDiv1 ul{
+		padding:1px;
+	}
+	#dhtmlgoodies_slidedown_menu .slideMenuDiv2 ul{
+		margin-left:5px;
+		padding:1px;
+	}
+	#dhtmlgoodies_slidedown_menu .slideMenuDiv3 ul{
+		margin-left:10px;
+		padding:1px;
+	}
+	#dhtmlgoodies_slidedown_menu .slMenuItem_depth4 ul{
+		margin-left:15px;
+		padding:1px;
+	}
+    #content {
+	position:absolute;
+	left:204px;
+	top:146px;
+	width:719px;
+	height:396px;
+	z-index:1;
+}
+    .title {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: large;
+	color: #FFF;
+	padding-left: 30px;
+}
+.content  {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: medium;
+	color: #FFF;
+	padding-right: 20px;
+	padding-left: 20px;
+	float: none;
+}
+    .content a {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: medium;
+	color: #FFF;
+	text-decoration: underline;
+}
+#news {
+	position:relative;
+	width:355px;
+	height:auto;
+	z-index:2;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #FFF;
+	float: right;
+	padding-bottom: 1-px;
+}
+.date{
+	font-size: x-large;
+	color: #FFF;
+	text-decoration: none;
+	background-image: url(images/white.png);
+	font-family: Verdana, Geneva, sans-serif;
+	padding-left: 30px;
+}
+#topmenu {
+	position:absolute;
+	left:372px;
+	top:237px;
+	width:542px;
+	height:43px;
+	z-index:3;
+	background-image: url(images/top2.png);
+	background-repeat: no-repeat;
+	text-align: center;
+	padding-top: 10px;
+}
+    .toplink {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: medium;
+	color: #FFF;
+	text-decoration: none;
+	padding-top: 20px;
+}
+.toplink a {
+	color: #FFF;
+	text-decoration: none;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+}
+.toplink a:hover {
+	color: #FFF;
+	text-decoration: underline;
+}
+#content .date {
+	font-family: Verdana, Geneva, sans-serif;
+}
+#content .title {
+	font-family: Verdana, Geneva, sans-serif;
+}
+#content #news p {
+	font-family: Verdana, Geneva, sans-serif;
+}
+#content .content {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 18px;
+}
+#content .content .content strong {
+	font-family: Verdana, Geneva, sans-serif;
+}
+#content .content .content {
+	font-family: Verdana, Geneva, sans-serif;
+}
+#content .date {
+	font-family: Verdana, Geneva, sans-serif;
+}
+#content .maintextheader2 {
+	color: #9D090D;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	font-style: oblique;
+	font-weight: bold;
+}
+#content .maintextheader3 {
+	color: #D5AA02;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	font-style: oblique;
+	font-weight: bold;
+}
+.silver {
+	color: #C0C0C0;
+}
+.red {
+	color: #F00;
+}
+.teal {
+	color: #00C196;
+}
+.steel {
+	color: #E0DFDB;
+}
+.gold {
+	color: #D4A017;
+}
+.black {
+	color: #000;
+	background-color: #FFF;
+}
+.cyan {
+	color: #80FFFF;
+}

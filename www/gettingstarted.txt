@@ -1,0 +1,17 @@
+Greetings and welcome to the Getting Started section. This section is
+designed to help you get started on our mud, even if you have never played
+a Mud before.
+
+Firstly, you must understand the nature of Muds. They are text based RPG's
+(role playing games) that work similar to a table-top game or an MMORPG.
+Unlike MMO's, Muds use words to describe the setting, characters and...
+pretty much everything, as there are no graphics! You move around by typing
+in commands like "look" to see the room or "north" to walk north. This is
+(In our opinion) better than an MMO's graphics base because there is such
+a higher level of customization of your character. You are able to describe
+every detail of their appearance and outfit, and the world can be just as
+vividly described. So long as you have the imagination to enjoy a book,
+Muds will spring to life, offering an interactive environment where you can
+team up to slay dragons, or engage others in deep, intense roleplaying.
+
+In order to get started,
